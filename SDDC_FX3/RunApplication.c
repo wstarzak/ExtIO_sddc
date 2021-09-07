@@ -214,7 +214,7 @@ void ApplicationThread ( uint32_t input)
 		}
 	}
     DebugPrint(4, "HWconfig: %d.", HWconfig);
-
+    HWconfig = RXLUCY;
 	switch(HWconfig) {
 		case HF103:
 			hf103_GpioInitialize();

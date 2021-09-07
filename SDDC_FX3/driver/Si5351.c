@@ -32,7 +32,7 @@
 #define SI5351_FREQ	27000000			// Crystal frequency
 #define SI5351_PLL_FIXED                80000000000ULL
 
-#define SI5351_ADDR        			    (0xC0) // (0x60 << 1 )
+#define SI5351_ADDR        			    (0xC4) // (0x60 << 1 )
 
 #define SI5351_CRYSTAL_LOAD             183
 #define SI5351_CRYSTAL_LOAD_MASK        (3<<6)
